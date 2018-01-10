@@ -4,7 +4,7 @@ namespace TasukePad
 {
     class Program
     {
-        static string[] keywords = new string[] { "content", "english", "japanese", "essence" };
+        private static string[] keywords = new string[] { "content", "english", "japanese", "essence" };
 
         public static void Main()
         {

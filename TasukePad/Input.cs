@@ -7,7 +7,7 @@ namespace TasukePad
 {
     class Input//create list, input new elements, add them to file
     {
-        static List<string> newElements = new List<string>();//i static, i new v odnom flakone!!!
+        private static List<string> newElements = new List<string>();//i static, i new v odnom flakone!!!
 
         public static void AddNewElements()
         {

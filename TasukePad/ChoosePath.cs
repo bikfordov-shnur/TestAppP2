@@ -4,7 +4,7 @@ namespace TasukePad
 {
     class ChoosePath//create array, input right keyword to choose between paths
     {
-        static string[] paths = new string[] { @"E:\CatalogEnglish.txt", @"E:\CatalogJapanese.txt", @"E:\CatalogIsEssence.txt" };//i static, i new v odnom flakone!!!
+        private static string[] paths = new string[] { @"E:\CatalogEnglish.txt", @"E:\CatalogJapanese.txt", @"E:\CatalogIsEssence.txt" };//i static, i new v odnom flakone!!!
         public static string rightPath;//or maybe file? or catalog?
 
         public static void ChooseRightPath()
